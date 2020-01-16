@@ -1,6 +1,6 @@
 const poolData = {
-    UserPoolId: 'eu-west-2_LMOC9KU7n',  // get in Cognito console
-    ClientId: 'so7s6rs7nasbgsip9lk38l961'  // cognito console -> App clients
+    UserPoolId: 'eu-west-2_oAvgheqQh',  // get in Cognito console
+    ClientId: '1llo2gfnddsp9l1elmodctdi8k'  // cognito console -> App clients
 }
 
 // create an instance of User Pool
@@ -29,3 +29,4 @@ function onSignUp(err, userData) {
         console.log(userData); // good, user was successfully created
     }
 }
+
